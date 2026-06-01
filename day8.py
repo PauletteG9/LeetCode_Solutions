@@ -1,7 +1,7 @@
 # 3945. Digit Frequency Score
 """You are given an integer n. The score of n is defined as the sum of d * freq(d) over all distinct digits d, where freq(d) denotes the number of times the digit d appears in n. Return an integer denoting the score of n.
 Difficulty: Easy
-Approach: Brute force"""
+Approach: Brute Force"""
 
 def digitFrequencyScore(self, n: int) -> int:
         score = 0
@@ -13,7 +13,7 @@ def digitFrequencyScore(self, n: int) -> int:
 # 3940. Limit Occurrences in Sorted Array
 """You are given a sorted integer array nums and an integer k. Return an array such that each distinct element appears at most k times, while preserving the relative order of the elements in nums. Note: If a distinct element appears at least k times, then it must appear exactly k times in the resulting array.
 Difficulty: Easy
-Approach: Brute force"""
+Approach: Brute Force"""
 
 def limitOccurrences(self, nums: list[int], k: int) -> list[int]:
         freq = {}
@@ -28,7 +28,7 @@ def limitOccurrences(self, nums: list[int], k: int) -> list[int]:
 """You are given an integer array nums of length n. Construct a new array ans of length 2 * n such that the first n elements are the same as nums, and the next n elements are the elements of nums in reverse order. Formally, for 0 <= i <= n - 1:
 ans[i] = nums[i], ans[i + n] = nums[n - i - 1]. Return an integer array ans.
 Difficulty: Easy
-Approach: Brute force"""
+Approach: Brute Force"""
 
 def concatWithReverse(self, nums: list[int]) -> list[int]:
         n = len(nums)
