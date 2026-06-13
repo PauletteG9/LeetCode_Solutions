@@ -9,6 +9,6 @@ A collection of my solutions to problems on LeetCode.
 ## Summary
 
 * **Language Used:** Python 
-* **Total Solved:** 113
+* **Total Solved:** 123
 
 ---
